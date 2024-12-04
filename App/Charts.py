@@ -11,11 +11,11 @@ def generate_pie(labels, values):
     ax.pie(values, labels=labels)
     ax.axis('equal')
     plt.savefig('circle.png')
-    plt.show()
+    plt.close()
 
 if __name__ == '__main__':
     labels = ['a', 'b', 'c']
     values = [100, 300, 300]
     generate_bar(labels, values)
     generate_pie(labels, values)
-    
+
