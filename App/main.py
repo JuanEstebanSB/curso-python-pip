@@ -3,7 +3,7 @@ import read_csv
 import Charts
 
 def run():
-    data = read_csv.read_csv('App/data.csv')
+    data = read_csv.read_csv('data.csv')
     
     data = list(filter(lambda item: item['Continent'] == 'South America', data))
     
