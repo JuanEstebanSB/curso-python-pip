@@ -1,4 +1,6 @@
-# PASOS PARA DESCARGAR GAME
+## CONTENIDO
+
+PASOS PARA DESCARGAR GAME
 
 Para descargar y correr el juego de piedra, papel o tijera:
 
